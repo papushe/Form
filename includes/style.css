@@ -1,0 +1,203 @@
+*{
+	margin:0;
+	padding:0;
+}
+header, nav, main, footer, aside, section, article{
+	display:block;
+}
+@media(min-width:820px) {
+	.container{
+		width: 800px;
+		margin: 0 auto;
+	}
+	form {
+		width: 100%;
+		margin: 0 auto;
+		border: 2px #CCCCCC double;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	input[type='text'], input[type='email'] {
+		float: right;
+		width: 80%;
+		margin-right: 10px;
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px #CCCCCC solid;
+	}
+
+	h1 {
+		font-size: 20px;
+		background: rgb(0, 255, 255);
+		padding: 10px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+
+	div {
+		width: 100%;
+		margin: 20px 0 25px 0;
+	}
+
+	label {
+		font-size: 16px;
+		padding-left: 5px;
+		width: 20%;
+	}
+
+	input[type='submit'] {
+		background: #00FF00;
+		display: block;
+		border: none;
+		border-radius: 5px;
+		color: #FFFFFF;
+		width: 90%;
+		padding: 10px;
+		margin: 120px auto 20px auto;
+		cursor: pointer;
+	}
+
+	input:required:valid {
+		border: 1px #008000 solid;
+	}
+
+	input:invalid {
+		border: 1px #FF0000 solid;
+	}
+}
+@media (min-width: 595px)and (max-width:819px) {
+	.container{
+		width: 95%;
+		margin: 0 auto;
+	}
+	form {
+		width: 100%;
+		margin: 0 auto;
+		border: 2px #CCCCCC double;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	input[type='text'], input[type='email'] {
+		float: right;
+		width: 80%;
+		margin-right: 10px;
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px #CCCCCC solid;
+	}
+
+	h1 {
+		font-size: 20px;
+		background: rgb(0, 255, 255);
+		padding: 10px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+
+	div {
+		width: 100%;
+		margin: 20px 0 25px 0;
+	}
+
+	label {
+		font-size: 16px;
+		padding-left: 5px;
+		width: 20%;
+	}
+
+	input[type='submit'] {
+		background: #00FF00;
+		display: block;
+		border: none;
+		border-radius: 5px;
+		color: #FFFFFF;
+		width: 90%;
+		padding: 10px;
+		margin: 120px auto 20px auto;
+		cursor: pointer;
+	}
+
+	input:required:valid {
+		border: 1px #008000 solid;
+	}
+
+	input:invalid {
+		border: 1px #FF0000 solid;
+	}
+}
+@media (min-width: 0px)and (max-width:594px) {
+	.container{
+		width: 95%;
+		margin: 0 auto;
+	}
+	form {
+		width: 100%;
+		margin: 0 auto;
+		border: 2px #CCCCCC double;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	input[type='text'], input[type='email'] {
+		float: left;
+		width: 92%;
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px #CCCCCC solid;
+	}
+
+	h1 {
+		font-size: 15px;
+		background: rgb(0, 255, 255);
+		padding: 10px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+
+	div {
+		width: 100%;
+		margin: 20px 0 0 0;
+	}
+
+	label {
+		float: left;
+		clear: both;
+		font-size: 14px;
+		margin-left: 5px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	input[type='submit'] {
+		background: #00FF00;
+		display: block;
+		border: none;
+		border-radius: 5px;
+		color: #FFFFFF;
+		width: 90%;
+		padding: 10px;
+		margin: 120px auto 10px auto;
+		cursor: pointer;
+	}
+
+	input:required:valid {
+		border: 1px #008000 solid;
+	}
+
+	input:invalid {
+		border: 1px #FF0000 solid;
+	}
+}
+/*input[value=""] + span::after {*/
+    /*content: "";*/
+/*}*/
+/*input:valid + span::after {*/
+    /*content: "\2713";*/
+    /*color: limegreen;*/
+/*}*/
+/*input:invalid + span::after {*/
+    /*content: "X";*/
+    /*color: #ce0000;*/
+/*}*/

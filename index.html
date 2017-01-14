@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="includes/style.css">
+	<link rel="shortcut icon" href="images/home.png">
+	<title>SIGN UP FORM</title>
+</head>
+<body>
+<div class="container">
+	<form action="http://134.86.158.192/CodingTest/home/SignUp" method="post">
+		<h1>SIGN UP FORM</h1>
+		<div>
+			<label for="userName">User Name
+				<input pattern="(?=.*[a-z]).{2,}"  id="userName" type="text" name="userName" value=""
+					   placeholder="Min length 2, Max length 30" title="Min length 2, Max length 30" required>
+			</label>
+		</div>
+		<div>
+			<label for="email">Email
+				<input type="email" name="mail" value="" placeholder="Email" required>
+			</label>
+		</div>
+		<div>
+			<input id="email" type="submit" value="Sign up">
+		</div>
+	</form>
+	<script src="includes/scripts.js"></script>
+</div>
+</body>
+</html>
