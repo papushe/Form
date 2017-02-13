@@ -17,4 +17,10 @@ $("document").ready(function () {
 	}
 	var data = JSON.stringify({ "Name": "userName", "Email" : "email"});
 	xhr.send(data);
+
+
+	$('h1').click(function () {
+		alert("hello");
+    });
+
 });
